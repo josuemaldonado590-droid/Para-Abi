@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Ti ❤️</title>
+
+  <!-- Conectar CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <!-- Música -->
+  <audio id="musica" loop>
+    <source src="musica.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Corazones -->
+  <div class="hearts" id="hearts"></div>
+
+  <!-- Tarjeta -->
+  <div class="card">
+
+    <h1>Para Ti ❤️</h1>
+
+    <p>
+      Hola mi querida abigail❤️<br><br>
+
+     No te sientas presionada por cosas, es normal sentirse asi pero
+     desde que yo llegue a tu vida no tienes porque lidear con todo tu sola 
+     ya cargas con muchas que son tediosas me gustaria que tu vida fuera mas tranquila 
+     asi que si hay problemas que yo pueda resolver dejamelos a mi.
+     Y si es de dividir el trabajo hay que hacerlo porque ahora somos un equipo
+    </p>
+
+    <!-- Botón música -->
+    <button class="btn" onclick="playMusic()">
+      Reproducir 🎵
+    </button>
+
+    <!-- Botón mensaje -->
+    <button class="btn" onclick="showMessage()">
+    Te amo ✨
+    </button>
+
+    <!-- Mensaje oculto -->
+    <div class="hidden-message" id="message">
+      Eres una de las mejores cosas que me han pasado ❤️
+    </div>
+
+    <div class="footer">
+      Te amo tres millones.
+    </div>
+
+  </div>
+
+  <!-- Conectar JS -->
+  <script src="index.js"></script>
+
+</body>
+</html>
